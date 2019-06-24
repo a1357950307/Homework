@@ -46,19 +46,19 @@ body>div {
 }
 
 .ah-logo>.ahl-sp1 {
-    background: url("./02-163登录/logo_wy.png") no-repeat center center;
+    background: url("./wy/logo_wy.png") no-repeat center center;
     width: 118px;
 }
 
 .ah-logo>.ahl-sp2 {
-    background: url("./02-163登录/dot_bg.jpg") repeat-y;
+    background: url("./wy/dot_bg.jpg") repeat-y;
     width: 1px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
 .ah-logo>.ahl-sp3 {
-    background: url("./02-163登录/text.png") no-repeat center center;
+    background: url("./wy/text.png") no-repeat center center;
     width: 286px;
 }
 
@@ -68,7 +68,7 @@ body>div {
 }
 
 .amain .am-head {
-    background: url("./02-163登录/tit_bg2.jpg") repeat-x;
+    background: url("./wy/tit_bg2.jpg") repeat-x;
     border-radius: 5px;
 }
 
@@ -78,7 +78,7 @@ body>div {
 }
 
 .amain .am-head .amh-img {
-    background: url("./02-163登录/tit_bg1.jpg") no-repeat;
+    background: url("./wy/tit_bg1.jpg") no-repeat;
     width: 43px;
     height: 46px;
 }
@@ -127,7 +127,7 @@ form {
 .am-main form>div .amf-vimg {
     display: inline-block;
     vertical-align: middle;
-    background: url("./02-163登录/yz.jpg") no-repeat;
+    background: url("./wy/yz.jpg") no-repeat;
     width: 120px;
     height: 25px;
 }
@@ -138,7 +138,7 @@ form {
 
 .am-main form .amf-subbut>input {
     border: none;
-    background: url("./02-163登录/but.jpg") no-repeat center;
+    background: url("./wy/but.jpg") no-repeat center;
     width: 100px;
     height: 35px;
 }
