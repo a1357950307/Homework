@@ -5,26 +5,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>网易</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="wy.css">
+    <title>day06作业,163登录</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./homework4.css">
 </head>
 
 <body>
-    <div class="ctn-dv">
-        <div class="heard-dv clearfix">
-            <div class="hleft-dv clearfix">
-                <span class="sp1"></span>
-                <div class="text-dv">中国第一大电子邮件服务商</div>
-            </div>
-            <div class="hright-dv">
-                <div class="dv1"><a href="">反馈意见</a></div>
-                <div class="dv2"><a href="">帮助</a></div>
+    <div>
+        <!-- 主框体 -->
+        <div class="boxa">
+            <!-- 水平居中框体 -->
+            <div class="mg1000">
+                <!-- logo头 -->
+                <div class="ahead clearfix">
+                    <!-- logo -->
+                    <div class="ah-logo">
+                        <!-- logo的三张图 -->
+                        <span class="ahl-sp1"></span>
+                        <span class="ahl-sp2"></span>
+                        <span class="ahl-sp3"></span>
+                    </div>
+                    <!-- 反馈意见 -->
+                    <div class="ah-right">
+                        <a href="">反馈意见</a>&nbsp;
+                        <a href="">帮助</a>
+                    </div>
+                </div>
+                <!-- 注册主体框 -->
+                <div class="amain">
+                    <!-- 欢迎注册免费邮 -->
+                    <div class="am-head">
+                        <!-- 笑脸图 -->
+                        <span class="amh-img"></span>
+                        <span class="amh-text">欢迎注册网易免费邮!您可以选择注册163、126、yeah.net三大免费邮箱</span>
+                    </div>
+                    <!-- 注册表单 -->
+                    <div class="am-main">
+                        <form action="">
+                            <div class="amf-type1">
+                                <span>*</span>
+                                邮件地址&nbsp;
+                                <input type="text" placeholder="请输入手机号码注册">
+                                @
+                                <select>
+                                    <option value="">163.com</option>
+                                </select>
+                            </div>
+                            <div class="amf-type2">6-18个字符，可使用字母、数字、下划线。推荐以手机号码直接注册</div>
+                            <div class="amf-type1">
+                                <span>*</span>
+                                密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="password" placeholder="">
+                            </div>
+                            <div class="amf-type2">6~16个字符，区分大小写</div>
+                            <div class="amf-type1">
+                                <span>*</span>
+                                确认密码&nbsp;
+                                <input type="password" placeholder="">
+                            </div>
+                            <div class="amf-type2">请再次输入密码</div>
+                            <div class="amf-type1">
+                                手机号码&nbsp;
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="amf-type2">密码遗忘或被盗时，可通过手机短信取回密码</div>
+                            <div class="amf-type1">
+                                <span>*</span>
+                                验证码&nbsp;
+                                <input type="password" placeholder="">
+                                <!-- 验证码图片 -->
+                                <span class="amf-vimg"></span>
+                            </div>
+                            <div class="amf-type2">请输入图片中的字符，不区分大小写<a href="">不清楚？换张图片</a></div>
+                            <div class="amf-type1">
+                                <input type="checkbox" id="cb">
+                                <label for="cb">
+                                    同意
+                                    “<a href="">服务条款</a>”
+                                    和
+                                    “<a href="">隐私权保护和个人信息利用政策</a>”
+                                </label>
+                            </div>
+                            <!-- 提交按钮 -->
+                            <div class="amf-type1 amf-subbut">
+                                <input type="submit" value=" ">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- 注册框底层,关于网易... -->
+                <div class="afoot">
+                    关于网易关于网易免费邮邮箱官方博客客户服务隐私政策 | 网易公司版权所有 ? 1997-2012
+                </div>
             </div>
         </div>
-        <div class="nav-ctn">
-            
-        </div>
+        <!-- 底部框体-纯色 -->
+        <div class="boxb"></div>
     </div>
 </body>
 

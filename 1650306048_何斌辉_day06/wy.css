@@ -1,59 +1,153 @@
-.ctn-dv {
-    background-color: rgb(175, 175, 175);
-    border: 1px solid red;
+body>div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
 }
 
-.heard-dv {
+.boxa {
+    position: absolute;
+    background: rgb(241, 241, 241);
+    top: 0px;
+    bottom: 30px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 3px white solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxb {
+    background: rgb(212, 208, 199);
+    position: absolute;
+    height: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.mg1000 {
     width: 1000px;
-    margin: 10px auto;
-    border: 1px solid red;
-
+    margin: 0px auto;
 }
 
-.heard-dv>.hleft-dv {
-    display: inline-block;
+.ahead {
+    padding-bottom: 5px;
+}
+
+.ahead .ah-logo {
     float: left;
 }
 
-.heard-dv>.hleft-dv>.sp1 {
+.ah-logo>span {
     display: inline-block;
-    width: 118px;
     height: 37px;
-    padding-right: 15px;
-    margin-top: 5px;
-    border-right: 1px dashed black;
-    background: url("wy/logo_wy.png") no-repeat;
-    float: left;
 }
 
-.heard-dv>.hleft-dv>.text-dv {
-    display: inline-block;
-    font-size: 20px;
-    color: #ccc;
-    height: 42px;
-    line-height: 48px;
-    margin-left: 20px;
-    float: left;
+.ah-logo>.ahl-sp1 {
+    background: url("./02-163登录/logo_wy.png") no-repeat center center;
+    width: 118px;
 }
 
-.heard-dv>.hright-dv {
-    display: inline-block;
+.ah-logo>.ahl-sp2 {
+    background: url("./02-163登录/dot_bg.jpg") repeat-y;
+    width: 1px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.ah-logo>.ahl-sp3 {
+    background: url("./02-163登录/text.png") no-repeat center center;
+    width: 286px;
+}
+
+.ahead .ah-right {
     float: right;
-    margin: 15px 0px;
-
+    line-height: 37px;
 }
 
-.heard-dv>.hright-dv div {
+.amain .am-head {
+    background: url("./02-163登录/tit_bg2.jpg") repeat-x;
+    border-radius: 5px;
+}
+
+.amain .am-head span {
     display: inline-block;
+    vertical-align: middle;
 }
 
-.heard-dv>.hright-dv>.dv1 {
-    margin-right: 5px;
+.amain .am-head .amh-img {
+    background: url("./02-163登录/tit_bg1.jpg") no-repeat;
+    width: 43px;
+    height: 46px;
 }
 
-.heard-dv>.hright-dv a {
-    text-decoration: none;
-    font-weight: bold;
+.amain .am-head .amh-text {
+    color: white;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.am-main {
+    background: white;
+    height: 600px;
+    padding: 20px 0px;
+}
+
+form {
+    padding-left: 30%;
+    padding-bottom: 10px;
+}
+
+.am-main form>.amf-type1 {
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.am-main form>.amf-type2 {
+    margin-left: 80px;
+    font-size: 10px;
+    color: rgb(152, 152, 152);
+}
+
+.am-main form>div input[type=text],
+.am-main form>div input[type=password] {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #EDEDED inset;
     font-size: 14px;
-    color: rgb(59, 59, 228);
+}
+
+.am-main form>div span {
+    color: red;
+}
+
+.am-main form>div .amf-vimg {
+    display: inline-block;
+    vertical-align: middle;
+    background: url("./02-163登录/yz.jpg") no-repeat;
+    width: 120px;
+    height: 25px;
+}
+
+.am-main form .amf-subbut {
+    margin-left: 10%;
+}
+
+.am-main form .amf-subbut>input {
+    border: none;
+    background: url("./02-163登录/but.jpg") no-repeat center;
+    width: 100px;
+    height: 35px;
+}
+
+.afoot {
+    padding: 30px;
+    text-align: center;
+}
+
+a {
+    color: blue;
 }
