@@ -1,0 +1,65 @@
+.ctn-dv{
+    background-color: white;
+}
+
+.m1000-dv{
+    width: 1000px;
+    margin: 0px auto;
+}
+.heard-dv{
+    padding-top: 10px;
+    padding-left: 200px;
+}
+.heard-dv span{
+    display: block;
+    background: url("albb/logo.jpg") no-repeat;
+    width: 1000px;
+    height: 85px;
+    margin: 0px auto;
+}
+.body-dv{
+    background: url("albb/body_bg.jpg") repeat-x;
+}
+.ul-dv1{
+    float: left;
+}
+.ul-dv1 li{
+    display: inline-block;
+    float: left;
+    
+}
+
+.ul-dv1 a{
+    display: block;
+    height: 38px;
+    width: 80px;
+    line-height: 38px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.ul-dv1 a:hover{
+    background-color: white;
+    color: rgb(255, 123, 0);
+}
+.ul-dv2{
+    display: inline-block;
+    float: right;
+}
+.ul-dv2 li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.ul-dv2 a{
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    text-decoration: none;
+    font-size: 10px;
+    color: white;
+}

@@ -1,0 +1,57 @@
+.ctn-dv {
+    background-color: rgb(238, 232, 232);
+    border: 1px solid red;
+}
+
+.heard-dv {
+    width: 1000px;
+    margin: 10px auto;
+    border: 1px solid red;
+
+}
+
+.heard-dv>.hleft-dv {
+    display: inline-block;
+    float: left;
+}
+
+.heard-dv>.hleft-dv>.sp1 {
+    display: inline-block;
+    width: 118px;
+    height: 37px;
+    padding-right: 15px;
+    border-right: 1px dashed black;
+    background: url("wy/logo_wy.png") no-repeat;
+    float: left;
+}
+
+.heard-dv>.hleft-dv>.text-dv {
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+}
+
+.heard-dv>.hright-dv {
+    display: inline-block;
+    float: right;
+    margin: 15px 0px;
+
+}
+
+.heard-dv>.hright-dv div {
+    display: inline-block;
+}
+
+.heard-dv>.hright-dv>.dv1 {
+    margin-right: 5px;
+}
+
+.heard-dv>.hright-dv a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(59, 59, 228);
+}

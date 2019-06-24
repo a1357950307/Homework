@@ -1,0 +1,307 @@
+.m1000-dv1 {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.log-sp {
+    background: url("./sh/logo.jpg") no-repeat;
+    width: 179px;
+    height: 23px;
+    float: left;
+}
+
+.hright-dv {
+    float: right;
+}
+
+.s-sp1 {
+    display: inline-block;
+    width: 166px;
+    height: 30px;
+}
+
+.s-sp1 .text {
+    width: 166px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.s-sp2 {
+    display: inline-block;
+    width: 32px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.s-sp2 .button {
+    width: 32px;
+    height: 30px;
+    background: url("sh/sea_r.jpg");
+    border-radius: 5px;
+}
+
+.nav-dv {
+    height: 56px;
+    background: url("sh/nav_bg.jpg") repeat-x;
+}
+
+.nul-dv1 {
+    height: 56px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.nul-dv1 li {
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+.nul-dv1 li a {
+    width: 150px;
+    height: 56px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    line-height: 56px;
+}
+
+.nul-dv1 li a:hover {
+    background-color: white;
+}
+
+.img1-dv {
+    width: 980px;
+    height: 666px;
+    margin: 0px auto;
+}
+
+.ts-dv {
+    border: 1px solid #ccc;
+}
+
+.ts-dv>.t1000-inner {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.ts-dv>.t1000-inner div {
+    display: inline-block;
+}
+
+.ts-dv>.t1000-inner>.img-dv1 {
+    float: right;
+}
+
+.bfooter-dv {
+    width: 1000px;
+    margin: 15px auto;
+}
+
+.bfleft-dv {
+    float: left;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.bfleft-dv>.dv1 {
+    margin-top: 10px;
+}
+
+.bfleft-dv>.dv1>span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background: url("sh/arrow.jpg") no-repeat;
+}
+
+.bfleft-dv>.dv1>.text {
+    display: inline-block;
+    color: rgb(52, 206, 52);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bfleft-dv>.img-dv {
+    margin: 5px 0px;
+    margin-bottom: 25px;
+}
+
+.bfleft-dv>.img-dv>img {
+    width: 317px;
+    height: 196px;
+}
+
+.bfleft-dv>.left {
+    width: 11px;
+    height: 19px;
+    background: url("sh/arrow_l.jpg");
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.bfleft-dv>.right {
+    width: 11px;
+    height: 19px;
+    background: url("sh/arrow_r.jpg");
+    position: absolute;
+    top: 120px;
+    right: 40px;
+}
+
+.bfcenter-dv {
+    display: inline-block;
+    margin: 0px 15px;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.bfcenter-inner>.heard {
+    margin: 10px 0px;
+}
+
+.bfcenter-inner>.heard>.dv1 {
+    display: inline-block;
+}
+
+.bfcenter-inner>.heard>.dv1>.sp1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background: url("sh/arrow.jpg") no-repeat;
+}
+
+.bfcenter-inner>.heard>.dv1>.dv1 {
+    display: inline-block;
+    color: rgb(52, 206, 52);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bfcenter-inner>.heard>.dv2 {
+    float: right;
+    padding-right: 15px;
+}
+
+.bfcenter-inner>.heard>.dv2>a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.bfcenter-inner>.body {
+    padding: 0px 15px;
+}
+
+.bfcenter-inner>.body li {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+.bfcenter-inner>.body a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.bfright-dv {
+    display: inline-block;
+    float: left;
+    width: 300px;
+    height: 260px;
+    border: 1px solid #ccc;
+}
+
+.bfright-dv>.img {
+    margin-top: 10px;
+}
+
+.bfright-dv>.img>.sp1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background: url("sh/arrow.jpg") no-repeat;
+}
+
+.bfright-dv>.img>.dv1 {
+    display: inline-block;
+    color: rgb(52, 206, 52);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bfright-dv>.ul-dv>ul {
+    margin-left: 35px;
+}
+
+.bfright-dv>.ul-dv li {
+    list-style-type: square;
+    color: rgb(11, 199, 11);
+
+}
+
+.bfright-dv>.ul-dv a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.bfright-dv>.text-dv {
+    font-size: 14px;
+    margin: 20px 20px;
+}
+
+.footer-dv {
+    background-color: rgb(41, 37, 37);
+}
+
+.footer-dv>.finner-ctn {
+    padding-top: 10px;
+    width: 1000px;
+    margin: 30px auto;
+
+}
+
+.footer-dv>.finner-ctn table {
+    width: 1000px;
+
+}
+
+.footer-dv>.finner-ctn thead td {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footer-dv>.finner-ctn tbody {
+    margin-top: 20px;
+}
+
+.footer-dv>.finner-ctn a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-dv>.ff-dv {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.footer-dv>hr {
+    border: 1px dashed rgb(119, 111, 111);
+}
+
+.footer-dv>.ff-dv div {
+    text-align: center;
+    font-size: 10px;
+}
